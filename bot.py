@@ -25,20 +25,20 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**Ben Løse Ønline Tagger Bot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
+  await event.reply("**Ben ŤĔĹĔĞŔĂМ ĔŤĨĶĔŤ ŤĂĞ βŐŤ**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/LoseOnlineRobot?startgroup=a'),
-                      Button.url('📣 Geliştirici', 'https://t.me/loseonline')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/affetmezler_sohbet'),
+                      Button.url('📣 Geliştirici', 'https://t.me/affetmezler_sohbet')]
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**@LoseOnlineRobot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n\n`Örnek: /all Günaydın!`  \n\nBu komutu yanıt olarak kullanabilirsiniz. Herhangi bir mesaj yanıtlandığında, yanıtlanan mesaj ile kullanıcıları etiketleyecebilir."
+  helptext = "**@Etiket_tag_bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n\n`Örnek: /all Günaydın!`  \n\nBu komutu yanıt olarak kullanabilirsiniz. Herhangi bir mesaj yanıtlandığında, yanıtlanan mesaj ile kullanıcıları etiketleyecebilir."
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/LoseOnlineRobot?startgroup=a'),
-                      Button.url('📣 Geliştirici', 'https://t.me/loseonline')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/affetmezler_sohbet'),
+                      Button.url('📣 Geliştirici', 'https://t.me/affetmezler_sohbet')]
                     ),
                     link_preview=False
                    )
@@ -80,6 +80,6 @@ async def mentionall(event):
         usrnum = 0
         usrtxt = ""
 
-print(">> Bot çalıyor merak etme 🚀 @loseonline bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 🚀 @kurucu_sahipp bilgi alabilirsin <<")
 client.run_until_disconnected()
  
