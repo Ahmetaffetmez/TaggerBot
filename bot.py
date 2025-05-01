@@ -27,8 +27,8 @@ async def cancel(event):
 async def start(event):
   await event.reply("**Ben ŤĔĹĔĞŔĂМ ĔŤĨĶĔŤ ŤĂĞ βŐŤ**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/affetmezler_sohbet'),
-                      Button.url('📣 Geliştirici', 'https://t.me/affetmezler_sohbet')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/sohbet_mobile'),
+                      Button.url('📣 Geliştirici', 'https://t.me/sohbet_mobile')]
                     ),
                     link_preview=False
                    )
@@ -37,8 +37,8 @@ async def help(event):
   helptext = "**@Etiket_tag_bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n\n`Örnek: /all Günaydın!`  \n\nBu komutu yanıt olarak kullanabilirsiniz. Herhangi bir mesaj yanıtlandığında, yanıtlanan mesaj ile kullanıcıları etiketleyecebilir."
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/affetmezler_sohbet'),
-                      Button.url('📣 Geliştirici', 'https://t.me/affetmezler_sohbet')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/sohbet_mobile'),
+                      Button.url('📣 Geliştirici', 'https://t.me/sohbet_mobile')]
                     ),
                     link_preview=False
                    )
