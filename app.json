@@ -1,14 +1,14 @@
 {
   "name" : " telegram etiket tag bot" ,
   "logo" : " https://telegra.ph/file/501b48450e3e76704b618.jpg " ,
-  "description" : " ŤĔĹĔĞŔĂМ ĔŤĨĶĔŤ ŤĂĞ βŐŤ bot sıze ucretsız uyelerinizi etiketleyen bir bottur. " ,
+  "description" : " ËVÏŅ ËȚÏĶËȚ BÖȚ bot sıze ucretsız uyelerinizi etiketleyen bir bottur. " ,
   "env" : {
     "TOKEN" : {
       "description" : " bot token girin. " ,
       "value" : " "
     },
     "APP_ID" : {
-      "description" : " @otomytelegrambot dan api hash api kimliği alınız. @Etiket_tag_bot'a ortak çalışsın " ,
+      "description" : " @otomytelegrambot dan api hash api kimliği alınız. @Evin_etiket_bot'a ortak çalışsın " ,
       "value" : " "
     },
     "API_HASH" : {
